@@ -1,0 +1,38 @@
+.feedback {
+  min-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  & .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  &__tittle {
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+}
+
+.graduates {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.graduates__pictures-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.feeback-social-icon {
+  & use {
+    fill: #436eab;
+  }
+  width: 30px;
+  height: 17px;
+}
+
+.people {
+  display: flex;
+}
